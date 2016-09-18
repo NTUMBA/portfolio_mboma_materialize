@@ -101,9 +101,9 @@ body {
   color: #eee;
 }
 header{
-  height: 110px;
-  margin-top: 0;
-  padding-top: 0;
+  height: 136px;
+  margin-top: -16px;
+  padding-top: 8px;
 
 }
 header, footer{
@@ -112,7 +112,9 @@ background-color: #6242A8;
 header, footer{
 padding-bottom: 15px;
 }
+nav{
 
+}
 nav,.skills-contact{
 background-color: #BCA2F5;
 }
@@ -144,6 +146,10 @@ footer{
 }
 article,.title{
   font-family: Helvetica monospace sans sherif;
+}
+.title{
+  font-weight: bold;
+  font-size: 1.2em;
 }
 .section_index{
      margin: 0 -30px -20px -40px;
