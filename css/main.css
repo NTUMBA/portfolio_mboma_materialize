@@ -135,7 +135,7 @@ ul li{
   list-style: none;
 }
 section{
-  padding-top: 15px;
+  padding-top: 30px;
   background-color:#A8A461;
 }
 article{
@@ -154,16 +154,22 @@ article,.title{
 .section_index{
      margin: 0 -30px -20px -40px;
    }
+article{
+   margin: -15px -50px -10px -50px;
+}
 
 .wrapper {
  width: 70%;
- margin: 0 auto;
+ margin: 18px auto;
  font-family: Palatino Lucida, sans-serif;
  color:#E0E0E2;
 }
 
 .carousel{
   margin:0 auto;
+}
+figure .web_designer{
+
 }
 .skills-contact{
   margin: 0 25px;
@@ -172,7 +178,9 @@ article,.title{
 .metro {
   width: 30px;
   filter: grayscale(100%);
--webkit-filter: grayscale(100%);
+-webkit-
+.web_designer{
+  }filter: grayscale(100%);
 -moz-filter: grayscale(100%);
 -ms-filter: grayscale(100%);
 -o-filter: grayscale(100%);
