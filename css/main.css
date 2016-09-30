@@ -112,14 +112,14 @@ background-color: #6242A8;
 header, footer{
 padding-bottom: 15px;
 }
-nav{
 
-}
 nav,.skills-contact{
 background-color: #BCA2F5;
 }
 
-
+p{
+  color: #6242A8;
+}
 ul{
   color: #FFF236;
 }
@@ -207,6 +207,15 @@ a img {
      .wrap{
        min-height:(100vh);
            }
+
+         }
+    @media (max-width: 544px) {
+      picture{
+        text-align: left;
+
+            }
+      }
+
 
    /* ##################################################################### */
    /* ############################   TABLETS   ############################ */
