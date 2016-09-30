@@ -171,6 +171,110 @@ article{
 figure .web_designer{
 
 }
+.eureka {
+  animation-duration: 8s;
+  animation-name: slidein;
+}
+
+@keyframes slidein{
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  75% {
+  font-size: 200%;
+  margin-left: 25%;
+  width: 120%;
+}
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.anima {
+/* Height and Width */
+  position:relative;
+  left:50px;
+    height: 200px;
+    width: 60px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    transition: 300ms;
+    background-color: #6242A8;
+    background-image:url(../img/rsz_a_plumb.jpg);
+/* Border */
+    border: 4px ridge #6242A8;
+/* Border-Radius */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #B70060;
+    font-weight: bold;
+    font-size:1.5em;
+}
+
+.anima:hover {
+/* Border */
+    border: 4px outset #6242A8;
+/* Box-Shadow */
+    -webkit-box-shadow: 5px 5px 8px 2px #000;
+   // -moz-box-shadow: 8px 8px 10px 7px #000;
+   // box-shadow: 8px 8px 10px 7px #000;
+/* Transform */
+-webkit-transform:translate(-10px,0px);
+  -moz-transform:translate(-10px,0px);
+    -ms-transform:translate(-10px,0px);
+     -o-transform:translate(-10px,0px);
+        transform:translate(-10px,0px);
+/* Text-Shadow */
+    text-shadow: 0 0 0 #000;
+
+background-image: url(../img/rsz_html_skills.jpg);
+
+}
+.spiritus {
+/* Height and Width */
+  position:relative;
+  left:50px;
+    height: 200px;
+    width: 60px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    transition: 300ms;
+    background-color: #6242A8;
+    background-image:url(../img/rsz_screenatelieryza.jpg);
+/* Border */
+    border: 4px ridge #6242A8;
+/* Border-Radius */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #B70060;
+    font-weight: bold;
+    font-size:1.5em;
+}
+.spiritus:hover {
+/* Border */
+    border: 4px outset #6242A8;
+/* Box-Shadow */
+    -webkit-box-shadow: 5px 5px 8px 2px #000;
+   // -moz-box-shadow: 8px 8px 10px 7px #000;
+   // box-shadow: 8px 8px 10px 7px #000;
+/* Transform */
+-webkit-transform:translate(-10px,0px);
+  -moz-transform:translate(-10px,0px);
+    -ms-transform:translate(-10px,0px);
+     -o-transform:translate(-10px,0px);
+        transform:translate(-10px,0px);
+/* Text-Shadow */
+    text-shadow: 0 0 0 #000;
+
+background-image: url(../img/rsz_current_project.jpg);
+
+}
 .skills-contact{
   margin: 0 25px;
 }
