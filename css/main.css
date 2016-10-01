@@ -101,9 +101,12 @@ body {
   color: #eee;
 }
 header{
+  position: fixed!important;
   height: 136px;
   margin-top: -16px;
   padding-top: 8px;
+  width: 100%;
+  z-index: 100;
 
 }
 header, footer{
@@ -135,7 +138,7 @@ ul li{
   list-style: none;
 }
 section{
-  padding-top: 30px;
+  padding-top: 120px;
   background-color:#A8A461;
 }
 article{
@@ -160,7 +163,7 @@ article{
 
 .wrapper {
  width: 80%;
- margin: 18px auto;
+ margin: 0 auto -60px auto;
  font-family: Palatino Lucida, sans-serif;
  color:#E0E0E2;
 }
