@@ -159,7 +159,7 @@ article{
 }
 
 .wrapper {
- width: 70%;
+ width: 80%;
  margin: 18px auto;
  font-family: Palatino Lucida, sans-serif;
  color:#E0E0E2;
@@ -172,7 +172,9 @@ figure .web_designer{
 
 }
 .eureka {
-  animation-duration: 8s;
+  color: #ff4500;
+  font-style: italic;
+  animation-duration: 6s;
   animation-name: slidein;
 }
 
@@ -210,9 +212,9 @@ figure .web_designer{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    color: #B70060;
+    color:#ff4500;
     font-weight: bold;
-    font-size:1.5em;
+    font-size:2em;
 }
 
 .anima:hover {
@@ -252,9 +254,9 @@ background-image: url(../img/rsz_html_skills.jpg);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    color: #B70060;
+    color: #ff4500;
     font-weight: bold;
-    font-size:1.5em;
+    font-size:2em;
 }
 .spiritus:hover {
 /* Border */
