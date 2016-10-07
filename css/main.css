@@ -215,7 +215,7 @@ figure .web_designer{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    color:#ff4500;
+    color:black;
     font-weight: bold;
     font-size:2em;
 }
@@ -237,6 +237,8 @@ figure .web_designer{
     text-shadow: 0 0 0 #000;
 
 background-image: url(../img/rsz_html_skills.jpg);
+/*opacité*/
+opacity: 0.7!important;
 
 }
 .spiritus {
@@ -257,7 +259,7 @@ background-image: url(../img/rsz_html_skills.jpg);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    color: #ff4500;
+    color: black;
     font-weight: bold;
     font-size:2em;
 }
@@ -278,6 +280,8 @@ background-image: url(../img/rsz_html_skills.jpg);
     text-shadow: 0 0 0 #000;
 
 background-image: url(../img/rsz_current_project.jpg);
+/*opacité*/
+opacity: 0.7!important;
 
 }
 .skills-contact{
