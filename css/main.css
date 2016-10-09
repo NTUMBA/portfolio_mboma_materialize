@@ -139,7 +139,7 @@ ul li{
 }
 section{
   padding-top: 150px;
-  background-color:#A8A461;
+  background-color:#f4f4f4;
 }
 article{
   padding: 15px;
@@ -152,7 +152,7 @@ article,.title{
 }
 .title{
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.8em;
 }
 .section_index{
      margin: 0 -30px -20px -40px;
@@ -165,7 +165,7 @@ article{
  width: 80%;
  margin: 0 auto -60px auto;
  font-family: Palatino Lucida, sans-serif;
- color:#E0E0E2;
+ color: black;
 }
 
 .carousel{
@@ -179,6 +179,10 @@ figure .web_designer{
   font-style: italic;
   animation-duration: 6s;
   animation-name: slidein;
+}
+form{
+  color: black !important;
+  font-weight: bold;
 }
 
 @keyframes slidein{
