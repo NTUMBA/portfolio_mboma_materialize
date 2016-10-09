@@ -81,48 +81,6 @@
           </figure>
         </article>
 
-        <form action="target.php" method="post" enctype="multipart/form-data">
-          <!--  action's attribute, web adress of a process, here the file target.php; method, http method to browser to submit and post value is  for communication with server -->
-          <fieldset>
-            <legend><span class="number"></span>Your opinion matters</legend>
-              <div class="row limite">
-                <div class="col s12 m4">
-                  <label for="firstname">Name:</label>
-                    <input type="text" name="name">
-                  <label for="name">First Name:</label>
-                    <input type="text" name="firstname">
-                    <label for="last_name">City:</label>
-                    <input type="text" name="city">
-                </div>
-
-                <div class="col s12 m4">
-                  <label for="age">Age:</label>
-                  <p>To contribute, you must be at least 21 years old</p>
-                  <input type="text" name="age">
-                  <label for="name">Sex:</label>
-                  <br><input type="radio" id="man" value="man" name="sex"><label for="man">Man</label>
-                  <br><input type="radio" id="woman" value="woman" name="sex"><label for="woman">Woman</label>
-                </div>
-
-                <div class="col s12 m4">
-                    <label for="last_name">Hobbies:</label><br>
-                    <input type="checkbox" value="sport" name="hobbies[]"><label for="sport">Sport</label><br>
-                    <input type="checkbox"  value="lecture" name="hobbies[]"><label for="lecture">reading</label><br>
-                    <input type="checkbox"  value="voyage" name="hobbies[]"><label for="voyage">Travelling</label><br>
-                    <input type="checkbox"  value="art" name="hobbies[]"><label for="art">Plastic art</label><br>
-                    <input type="checkbox"  value="music" name="hobbies[]"><label for="lecture">Music</label><br>
-                    <label for="share">Share Links and Hint:</label><br>
-                    <textarea id="skills" name="hints"></textarea>
-                    <!--  This element allows user to write multiple lines text and he could resize it a volo-->
-                  </div>
-                </div>
-                <!--row end s here=============================-->
-          </fieldset>
-          <input type="file" name="index" /><br />
-          <input type="submit"  class= "col s12" name="submit" value="Submit" />
-
-        </form>
-
       </section>
     </div>
     <!--  wrapper ends here=====================================================-->
