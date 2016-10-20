@@ -113,6 +113,9 @@ header,footer{
 background-color: #6242A8;
 padding-bottom: 15px;
 }
+nav{
+  margin-top: -17px;
+}
 
 nav,.skills-contact{
 background-color: #BCA2F5;
@@ -151,9 +154,11 @@ article,.title{
 .title{
   font-weight: bold;
   font-size: 1.8em;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .section_index{
-     margin: 0 -30px -20px -40px;
+     margin: 0 -40px -20px -40px;
    }
 article{
    margin: -15px -50px -10px -50px;
@@ -285,6 +290,20 @@ background-image: url(../img/rsz_current_project.jpg);
 /*opacité*/
 opacity: 0.7!important;
 
+}
+.anima,.spiritus{
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 .skills-contact{
   margin: 0 25px;
