@@ -95,12 +95,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Itim', cursive;
   background-image: radial-gradient(circle, #F5F0A4, #243318);
   text-align: center;
   color: #eee;
 }
 header{
+
+  font-family: 'Poiret One', cursive;
   position: fixed!important;
   height: 136px;
   margin-top: -16px;
@@ -115,6 +117,9 @@ padding-bottom: 15px;
 }
 nav{
   margin-top: -17px;
+  display: flex;
+  justify-content: space-around;
+
 }
 
 nav,.skills-contact{
