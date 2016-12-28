@@ -214,8 +214,12 @@ color: black !important;
 
 .carousel{
   margin:5px auto;
-  width: 55%!important;
+  width: 70%!important;
   height: 350px;
+}
+.carousel-item{
+width: 450px!important;
+height: 320px!important;
 }
 
 .eureka {
@@ -251,8 +255,8 @@ color: black !important;
   margin: 0 auto;
 }
 .Camus,.Platon,.Shakespeare,.Kongo{
-  width: 350px;
-  height: 250px;
+  width: 250px;
+  height: 150px;
 }
 .Camus:hover,.Platon:hover,.Shakespeare:hover,.Kongo:hover{
   margin-top: 10px;
