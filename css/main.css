@@ -128,7 +128,7 @@ header,footer,nav{
   color:black;
 }
 
-header,.skills-contact{
+header,section,.skills-contact,.copyleft{
 background-color: #ffe;
 
 }
@@ -167,7 +167,7 @@ ul li{
 section{
   margin: 0 auto;
   padding-top: 15%;
-  background-color:#ffe;
+
 }
 article{
 
@@ -244,10 +244,25 @@ color: black !important;
   transition:margin-left 10s;
   /*margin-top: -20px;*/
 }
+.informatics{
+  margin: 0 auto;
+}
+.languages{
+  margin: 0 auto;
+}
+.Camus,.Platon,.Shakespeare,.Kongo{
+  width: 350px;
+  height: 250px;
+}
 .Camus:hover,.Platon:hover,.Shakespeare:hover,.Kongo:hover{
   margin-top: 10px;
   transform:scale(1.6);
 
+}
+.simplon,.c2i{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15%;
 }
 
 .skills-contact{
