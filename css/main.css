@@ -96,9 +96,9 @@ textarea {
    ========================================================================== */
 body {
   font-family: 'Itim', cursive;
-  background-image: radial-gradient(circle, #F5F0A4, #243318);
+  background-color: black;
   text-align: center;
-  color: #eee;
+  color:black;
 }
 header{
 
@@ -110,51 +110,87 @@ header{
   width: 100%;
   z-index: 100;
 
+
 }
 header,footer{
-background-color: #6242A8;
 padding-bottom: 15px;
+color:black;
+}
+nav ul li{
+  color:black !important;
 }
 nav{
   margin-top: -17px;
   display: flex;
   justify-content: space-around;
+}
+header,footer,nav{
+  color:black;
+}
+
+header,.skills-contact{
+background-color: #ffe;
 
 }
 
-nav,.skills-contact{
-background-color: #BCA2F5;
+footer{
+  font-size: 1.5rem;
+  background-color: #ee6e73;
 }
 
-p,.eureka{
+
+.eureka{
   color: #6242A8;
 }
-
-h5,a,h6{
+h6,nav{
   font-weight: bold;
+}
+h6{
+  text-align: center;
+  font-size: 0.7em;
+}
+nav{
+  display: flex;
+  justify-content: flex-start;
 }
 
 ul {
   display: flex;
   justify-content: space-around;
-  color:#f4f4f4;
+
 }
 ul li{
+
   list-style: none;
+  color:black !important;
 }
 section{
-  padding-top: 150px;
-  background-color:#f4f4f4;
+  margin: 0 auto;
+  padding-top: 15%;
+  background-color:#ffe;
 }
 article{
-  padding: 15px;
+
 }
 footer{
-  margin-top: 50px;
+  /*margin-top: 10px;*/
+  color:black;
+  padding-top: 3px;
 }
 article{
   font-family: Helvetica monospace sans sherif;
+  /*margin: -15px -50px -10px -50px;*/
+  padding: 15px;
 }
+form{
+  font-weight: bold;
+}
+a,.eureka{
+  color: navy !important;
+}
+a img {
+   border:none;
+      }
 .title{
   font-weight: bold;
   font-size: 1.8em;
@@ -162,34 +198,30 @@ article{
   padding-right: 5px;
   font-family: monospace sans-serif cursive;
 }
-.section_index{
+/*.section_index{
      margin: 0 -40px -20px -40px;
-   }
-article{
-   margin: -15px -50px -10px -50px;
-}
+   }*/
 
 .wrapper {
  width: 80%;
- margin: 0 auto -60px auto;
+ margin: 0 auto;
  font-family: Palatino Lucida, sans-serif;
- color: black;
+
+}
+form,.wrapper{
+color: black !important;
 }
 
 .carousel{
-  margin:0 auto;
+  margin:5px auto;
+  width: 55%!important;
+  height: 350px;
 }
-figure .web_designer{
 
-}
 .eureka {
   font-style: italic;
   animation-duration: 6s;
   animation-name: slidein;
-}
-form{
-  color: black !important;
-  font-weight: bold;
 }
 
 @keyframes slidein{
@@ -208,110 +240,24 @@ form{
     width: 100%;
   }
 }
-.anima {
-/* Height and Width */
-  position:relative;
-  left:50px;
-    height: 200px;
-    width: 60px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    transition: 300ms;
-    background-color: #6242A8;
-    background-image:url(../img/rsz_a_plumb.jpg);
-/* Border */
-    border: 4px ridge #6242A8;
-/* Border-Radius */
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    color:black;
-    font-weight: bold;
-    font-size:2em;
+.school{
+  transition:margin-left 10s;
+  /*margin-top: -20px;*/
 }
-
-.anima:hover {
-/* Border */
-    border: 4px outset #6242A8;
-/* Box-Shadow */
-    -webkit-box-shadow: 5px 5px 8px 2px #000;
-   // -moz-box-shadow: 8px 8px 10px 7px #000;
-   // box-shadow: 8px 8px 10px 7px #000;
-/* Transform */
--webkit-transform:translate(-10px,0px);
-  -moz-transform:translate(-10px,0px);
-    -ms-transform:translate(-10px,0px);
-     -o-transform:translate(-10px,0px);
-        transform:translate(-10px,0px);
-/* Text-Shadow */
-    text-shadow: 0 0 0 #000;
-
-background-image: url(../img/rsz_html_skills.jpg);
-/*opacité*/
-opacity: 0.7!important;
+.Camus:hover,.Platon:hover,.Shakespeare:hover,.Kongo:hover{
+  margin-top: 10px;
+  transform:scale(1.6);
 
 }
-.spiritus {
-/* Height and Width */
-  position:relative;
-  left:50px;
-    height: 200px;
-    width: 60px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    transition: 300ms;
-    background-color: #6242A8;
-    background-image:url(../img/rsz_screenatelieryza.jpg);
-/* Border */
-    border: 4px ridge #6242A8;
-/* Border-Radius */
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    color: black;
-    font-weight: bold;
-    font-size:2em;
-}
-.spiritus:hover {
-/* Border */
-    border: 4px outset #6242A8;
-/* Box-Shadow */
-    -webkit-box-shadow: 5px 5px 8px 2px #000;
-   // -moz-box-shadow: 8px 8px 10px 7px #000;
-   // box-shadow: 8px 8px 10px 7px #000;
-/* Transform */
--webkit-transform:translate(-10px,0px);
-  -moz-transform:translate(-10px,0px);
-    -ms-transform:translate(-10px,0px);
-     -o-transform:translate(-10px,0px);
-        transform:translate(-10px,0px);
-/* Text-Shadow */
-    text-shadow: 0 0 0 #000;
 
-background-image: url(../img/rsz_current_project.jpg);
-/*opacité*/
-opacity: 0.7!important;
-
-}
-.anima,.spiritus{
-  text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
-}
 .skills-contact{
-  margin: 0 25px;
+  width: 100%;
 }
+
+.skills-contact{
+    padding: 3px 0;
+}
+
 
 .metro {
   width: 30px;
@@ -329,32 +275,43 @@ opacity: 0.7!important;
   overflow: hidden;
 }
 
-/*###########################################################################*/
 
-
-a img {
-   border:none;
-      }
+.clic_show {
+  color: #fff;
+}
 
    /* ##################################################################### */
    /* ##########################   SMARTPHONE   ########################### */
    /* ##################################################################### */
 
 
-   @media (min-width: 544px) {
-     .wrap{
+   @media (min-width: 375px) {
+     .wrapper{
+       width: 80%;
        min-height:(100vh);
+       margin: 0 auto;
            }
-           footer{
-             width: 100%;
-           }
+       footer{
+         width: 100%;
+       }
+       figure,section{
+         padding: 0 auto;
+         margin: 0 auto;
+       }
+       h6,img{
+         max-width: 70%;
+       }
+       /*section{
+         max-height: 60%;
+       }*/
 
          }
     @media (max-width: 544px) {
-      picture{
+      /*picture{
         text-align: left;
 
-            }
+            }*/
+
       }
 
 
@@ -362,10 +319,10 @@ a img {
    /* ############################   TABLETS   ############################ */
    /* ##################################################################### */
 
-   @media (min-width: 769px) {
+   /*@media (min-width: 769px) {
      .wrap{
        min-height:(100vh);
-           }
+           }*/
 
    /* ##################################################################### */
    /* ############################   DESKTOPS   ########################### */

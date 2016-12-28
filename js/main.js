@@ -1,13 +1,24 @@
 
-$(".theme").hide().show("slow");
+// $(".theme").hide().show("slow");
+// $(document).ready(function(){
+//   $(".button-collapse").sideNav();
+// });
 $(document).ready(function(){
   $(".button-collapse").sideNav();
 });
 
+
 $(document).ready(function(){
-  $('.carousel').carousel();
+          $('.carousel').carousel();
+          // $('.carousel.carousel-slider').carousel({full_width: true});
+          $('.carousel').carousel({
+    // padding: 200
 });
-$('article').hide().show("slow");
-$(document).ready(function(){
-   $('.materialboxed').materialbox();
- });
+autoplay()
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
+
+
+});

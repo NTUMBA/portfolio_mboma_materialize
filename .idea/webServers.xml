@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3a473cf9-f6cf-41cc-ac97-459e062701a7" name="portfolio_mboma_materialize" url="http://simon-mboma.fr">
+        <fileTransfer host="simon-mboma.fr" port="22" rootFolder="/home/ntumba/www/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
