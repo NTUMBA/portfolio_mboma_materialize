@@ -103,13 +103,13 @@ body {
 header{
 
   font-family: 'Poiret One', cursive;
-  position: fixed!important;
+  /*position: relative;*/
   height: 136px;
   margin-top: -16px;
+  margin-bottom: 17px;
   padding-top: 8px;
   width: 100%;
   z-index: 100;
-
 
 }
 header,footer{
@@ -166,7 +166,7 @@ ul li{
 }
 section{
   margin: 0 auto;
-  padding-top: 15%;
+  padding-top: 5%;
 
 }
 article{
@@ -313,7 +313,7 @@ height: 320px!important;
        footer{
          width: 100%;
        }
-       figure,section{
+       figure{
          padding: 0 auto;
          margin: 0 auto;
        }
