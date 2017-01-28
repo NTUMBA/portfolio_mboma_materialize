@@ -96,9 +96,15 @@ textarea {
    ========================================================================== */
 body {
   font-family: 'Itim', cursive;
-  background-color: black;
   text-align: center;
+}
+body,.copyleft{
+
+  background-color: black;
+}
+body,header,footer,nav{
   color:black;
+
 }
 header{
 
@@ -114,23 +120,26 @@ header{
 }
 header,footer{
 padding-bottom: 15px;
-color:black;
 }
-nav ul li{
+/*nav ul li,ul li,form,.wrapper{
   color:black !important;
-}
+}*/
 nav{
-  margin-top: -50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin-top: -50px;
 }
-header,footer,nav{
-  color:black;
+nav a,.fa,.copyleft,.clic_show{
+  color:#ffe!important;
+
 }
 
-header,section,.skills-contact,.copyleft{
+header,section,.skills-contact{
 background-color: #ffe;
 
+}
+p{
+  font-family: 'Roboto', sans-serif;
 }
 
 footer{
@@ -138,20 +147,13 @@ footer{
   background-color: #ee6e73;
 }
 
-
-.eureka{
-  color: #6242A8;
-}
 h6,nav{
   font-weight: bold;
 }
 h6{
   text-align: center;
-  font-size: 0.7em;
-}
-nav{
-  display: flex;
-  justify-content: flex-start;
+  font-size: 0.9em;
+  margin: 5px auto;
 }
 
 ul {
@@ -162,19 +164,16 @@ ul {
 ul li{
 
   list-style: none;
-  color:black !important;
+  /*color:black !important;*/
 }
 section{
   margin: 0 auto;
   padding-top: 5%;
 
 }
-article{
 
-}
 footer{
   /*margin-top: 10px;*/
-  color:black;
   padding-top: 3px;
 }
 article{
@@ -185,7 +184,7 @@ article{
 form{
   font-weight: bold;
 }
-a,.eureka{
+a{
   color: navy !important;
 }
 a img {
@@ -208,9 +207,9 @@ a img {
  margin-left: 37px;*/
  font-family: Palatino Lucida, sans-serif;
 }
-form,.wrapper{
+/*form,.wrapper{
 color: black !important;
-}
+}*/
 
 .carousel{
   margin:5px auto;
@@ -246,7 +245,7 @@ height: 320px!important;
 }
 .school{
   transition:margin-left 10s;
-  /*margin-top: -20px;*/
+
 }
 .informatics{
   margin: 0 auto;
@@ -303,24 +302,28 @@ height: 320px!important;
   overflow: hidden;
 }
 
-
-.clic_show {
-  color: #fff;
-}
 .foot_title{
   text-align: left;
   padding-left: 10px;
+}
+.laureat,.ecotox,.emmaus{
+  margin: 0 auto;
+}
+.internship{
+  max-width: 160px;
+}
+.study{
+  max-width: 190px;
 }
    /* ##################################################################### */
    /* ##########################   SMARTPHONE   ########################### */
    /* ##################################################################### */
 
-
    @media (min-width: 375px) {
      .wrapper{
        width: 80%;
        min-height:cal(100vh- 585px);
-       /*margin: 0 auto;*/
+       margin: 0 auto;
            }
        footer{
          width: 100%;
@@ -332,45 +335,53 @@ height: 320px!important;
        h6,img{
          max-width: 70%;
        }
-       /*section{
-         max-height: 60%;
-       }*/
+       .title{
+         font-size: 1.4em;
+       }
 
-         }
-    @media (max-width: 544px) {
-    .wrapper{
-      margin-top: -9px;
-      margin-left: 35px;
+    }
+   .copyleft{
+     margin-bottom: -40px;
+   }
+   /* ##################################################################### */
+   /* ############################   TABLETS   ############################ */
+   /* ##################################################################### */
+   @media (min-width: 544px) {
+        .title{
+          font-size: 2.5em;
         }
+      }
+      @media (max-width: 544px) {
+        .wrapper{
+          margin-top: -9px;
+          margin-left: 35px;
+            }
         .title{
           font-size: 1.7em;
         }
       }
+      @media (max-width: 495px) {
+        .wrap {
+          min-height: calc(100vh- 244px);
+        }
 
-
-
-   /* ##################################################################### */
-   /* ############################   TABLETS   ############################ */
-   /* ##################################################################### */
-
+      }
 
 
    /* ##################################################################### */
    /* ############################   DESKTOPS   ########################### */
    /* ##################################################################### */
+   @media (min-width: 769px) {
+     .wrapper{
+       margin: 22px auto -20px auto;
+         }
 
+      }
 
    /* ##################################################################### */
    /* ########################   LARGE DESKTOPS   ######################### */
    /* ##################################################################### */
-   @media (min-width: 769px) {
-   .wrapper{
-     margin: 22px auto -20px auto;
-       }
-       .title{
-         font-size: 2.5em;
-       }
-           }
+
 
 
 /* ==========================================================================
