@@ -185,7 +185,7 @@ article{
 form{
   font-weight: bold;
 }
-a{
+a,.copyleft{
   color: navy !important;
 }
 a img {
@@ -319,13 +319,19 @@ height: 320px!important;
 .hobby{
   margin-right: 85%;
 }
-.logo{
-  margin-left: 85%;
 
-  max-width: 12%;
-}
 .brand-logo{
-  padding-bottom: 6px!important;
+  max-width: 14%;
+  margin-left: 86%;
+
+}
+#logo{
+  border-radius: 45%;
+
+}
+.copyleft{
+  font-size: 0.7em;
+  margin-bottom: -40px;
 }
    /* ##################################################################### */
    /* ##########################   SMARTPHONE   ########################### */
@@ -352,9 +358,7 @@ height: 320px!important;
        }
 
     }
-   .copyleft{
-     margin-bottom: -40px;
-   }
+
    /* ##################################################################### */
    /* ############################   TABLETS   ############################ */
    /* ##################################################################### */
