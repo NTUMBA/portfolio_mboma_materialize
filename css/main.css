@@ -128,8 +128,9 @@ nav{
   display: flex;
   justify-content: flex-start;
   margin-top: -50px;
+  font-weight: bolder;
 }
-nav a,.fa,.copyleft,.clic_show{
+.fa,.copyleft,.clic_show{
   color:#ffe!important;
 
 }
@@ -317,6 +318,14 @@ height: 320px!important;
 }
 .hobby{
   margin-right: 85%;
+}
+.logo{
+  margin-left: 85%;
+
+  max-width: 12%;
+}
+.brand-logo{
+  padding-bottom: 6px!important;
 }
    /* ##################################################################### */
    /* ##########################   SMARTPHONE   ########################### */
