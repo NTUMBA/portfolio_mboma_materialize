@@ -146,6 +146,7 @@ p{
 footer{
   font-size: 1.5rem;
   background-color: #ee6e73;
+  padding-top: 3px;
 }
 
 h6,nav{
@@ -173,14 +174,11 @@ section{
 
 }
 
-footer{
-  /*margin-top: 10px;*/
-  padding-top: 3px;
-}
 article{
   font-family: Helvetica monospace sans sherif;
-  /*margin: -15px -50px -10px -50px;*/
+  width: 100%!important;
   padding: 15px;
+  background-color: #EE6E73;
 }
 form{
   font-weight: bold;
@@ -203,7 +201,7 @@ a img {
    }*/
 
 .wrapper {
- width: 80%;
+ width: 90%;
  /*margin-top: 56px;
  margin-left: 37px;*/
  font-family: Palatino Lucida, sans-serif;
@@ -244,6 +242,7 @@ height: 320px!important;
     width: 100%;
   }
 }
+
 .school{
   transition:margin-left 10s;
 
@@ -397,8 +396,6 @@ height: 320px!important;
    /* ##################################################################### */
    /* ########################   LARGE DESKTOPS   ######################### */
    /* ##################################################################### */
-
-
 
 /* ==========================================================================
    Helper classes
